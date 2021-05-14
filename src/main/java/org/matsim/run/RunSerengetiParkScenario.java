@@ -80,6 +80,8 @@ public final class RunSerengetiParkScenario {
 		Scenario scenario = prepareScenario( config ) ;
 		Controler controler = prepareControler( scenario ) ;
 		controler.run();
+
+
 	}
 
 	public static Controler prepareControler( Scenario scenario ) {
